@@ -125,7 +125,7 @@ function deserialize (value) {
                 protocol = DEFAULT_URI_PROTOCOL
             }
 
-        } catch {
+        } catch (error) {
             protocol = DEFAULT_URI_PROTOCOL
 
         } finally {
@@ -143,7 +143,7 @@ function deserialize (value) {
                 auth = DEFAULT_URI_AUTH
             }
 
-        } catch {
+        } catch (error) {
             auth = DEFAULT_URI_AUTH
 
         } finally {
@@ -161,7 +161,7 @@ function deserialize (value) {
                 nextSegment = nextSegment.split('/').slice(1).join('/')
             }
 
-        } catch {
+        } catch (error) {
             endpoint = DEFAULT_URI_ENDPOINT
 
         } finally {
@@ -207,7 +207,7 @@ function deserialize (value) {
                     ports.push(port)
                 }
             }
-        } catch {}
+        } catch (error) {}
 
         endpoint = endpoints[0]
         host = hosts[0]
@@ -227,7 +227,7 @@ function deserialize (value) {
                 path = `/${path}`
             }
 
-        } catch {
+        } catch (error) {
             path = DEFAULT_URI_PATH
 
         } finally {
@@ -244,7 +244,7 @@ function deserialize (value) {
                 query = DEFAULT_URI_QUERY
             }
 
-        } catch {
+        } catch (error) {
             query = DEFAULT_URI_QUERY
 
         } finally {
