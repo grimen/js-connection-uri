@@ -1,0 +1,62 @@
+{
+    "name": "@grimen/connection-uri",
+    "version": "0.1.0",
+    "description": "A robust connection URI parser/stringifier - for Node/JavaScript.",
+    "keywords": [
+        "connection-uri",
+        "connection-url",
+        "database-uri",
+        "database-url",
+        "server-uri",
+        "server-url",
+        "connection",
+        "database",
+        "server",
+        "uri",
+        "url",
+        "serializer",
+        "deserializer",
+        "packer",
+        "unpacker",
+        "stringifier",
+        "parser",
+        "multi-host"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/grimen/node-connection-uri.git"
+    },
+    "bugs": {
+        "url": "https://github.com/grimen/node-connection-uri/issues"
+    },
+    "homepage": "https://github.com/grimen/node-connection-uri#readme",
+    "author": "Jonas Grimfelt <jonas@markable.ai> (https://github.com/grimen)",
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+        "test": "npx jest",
+        "test-ci": "npx jest --runInBand --forceExit --detectOpenHandles --coverage",
+        "test-dev": "npx jest --watch",
+        "validate": "npx eslint \"**/*.js\"",
+        "release": "./bin/release",
+        "coverage": "npx jest --coverage",
+        "coverage-codecov": "npx codecov"
+    },
+    "dependencies": {
+        "@grimen/mybad": "^0.2.1",
+        "query-string": "^6.8.3"
+    },
+    "devDependencies": {
+        "babel-eslint": "^10.0.1",
+        "codecov": "^3.2.0",
+        "eslint": "^5.14.1",
+        "jest": "^24.1.0",
+        "jest-tobetype": "^1.2.3"
+    },
+    "jest": {
+        "bail": true,
+        "verbose": true,
+        "testRegex": "test_.*\\.js",
+        "testEnvironment": "node"
+    }
+}
