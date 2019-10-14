@@ -24,12 +24,12 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/grimen/node-connection-uri.git"
+        "url": "git+https://github.com/grimen/js-connection-uri.git"
     },
     "bugs": {
-        "url": "https://github.com/grimen/node-connection-uri/issues"
+        "url": "https://github.com/grimen/js-connection-uri/issues"
     },
-    "homepage": "https://github.com/grimen/node-connection-uri#readme",
+    "homepage": "https://github.com/grimen/js-connection-uri#readme",
     "author": "Jonas Grimfelt <jonas@markable.ai> (https://github.com/grimen)",
     "license": "MIT",
     "main": "index.js",
