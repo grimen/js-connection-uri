@@ -1,5 +1,5 @@
 
-# `js-connection-uri` [![NPM version](https://badge.fury.io/js/%40grimen%2Fmybad.svg)](https://badge.fury.io/js/%40grimen%2Fmybad) [![Build Status](https://travis-ci.com/grimen/js-connection-uri.svg?token=sspjPRWbecBSpceU8Jyn&branch=master)](https://travis-ci.com/grimen/js-connection-uri) [![Coverage Status](https://codecov.io/gh/grimen/js-connection-uri/branch/master/graph/badge.svg)](https://codecov.io/gh/grimen/js-connection-uri)
+# `js-connection-uri` [![NPM version](https://badge.fury.io/js/%40grimen%2Fconnection-uri.svg)](https://badge.fury.io/js/%40grimen%2Fconnection-uri) [![Build Status](https://travis-ci.com/grimen/js-connection-uri.svg?token=sspjPRWbecBSpceU8Jyn&branch=master)](https://travis-ci.com/grimen/js-connection-uri) [![Coverage Status](https://codecov.io/gh/grimen/js-connection-uri/branch/master/graph/badge.svg)](https://codecov.io/gh/grimen/js-connection-uri)
 
 *A robust connection URI parser/stringifier - for JavaScript/Node.*
 
