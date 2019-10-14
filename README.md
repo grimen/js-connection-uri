@@ -31,14 +31,6 @@ Very basic **[example](https://github.com/grimen/js-connection-uri/tree/master/e
 ```javascript
 const connectionURI = require('@grimen/connection-uri')
 
-
-
-// =========================================
-//       EXAMPLE
-// --------------------------------------
-
-const connectionURI = require('@grimen/connection-uri')
-
 basicConnectionURI = 'localhost:3000/namespace/foo/'
 basicConnectionOptions = connectionURI.unpack(basicConnectionURI)
 
