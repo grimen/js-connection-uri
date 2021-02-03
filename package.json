@@ -42,6 +42,9 @@
         "coverage": "npx jest --coverage",
         "coverage-codecov": "npx codecov"
     },
+    "engines": {
+        "node": ">=10"
+    },
     "dependencies": {
         "@grimen/mybad": "^0.2.3",
         "query-string": "^6.13.8"
